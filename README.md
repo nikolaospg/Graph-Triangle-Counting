@@ -1,11 +1,6 @@
-# Parallel-Systems-Exercise-1
-
-This directory contains all the code written for the first exercise for the course 'Parallel and Distributed Systems', semester 7 at ECE, AUTh.
-
+# High Performance Triangle Counting 
 Given an adjacency matrix A in matrix market format, our code calculates in how many triangles is each node adjacent to.
-This is done using two different methods, namely V3 using a triple for loop and V4 that takes advantage of A to the square matrix thus reducing complexity.
-
-Both of these methods are implemented both serially and in parallel.
+This is done using OMP, OpenCilk and pthreads shared memory parallelisation.
 
 For V3:
 1)Serial implementation: V3serial.c
