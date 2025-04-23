@@ -13,7 +13,7 @@ For V4:
 3)Parallel with openMP: V4omp.c
 4)Parallel with openCilk: V4cilk.c
 
-Finally, a Makefile to make the executables is included.
+Finally, a Makefile to make the executables is included. A report (in greek) for more comments and insights regarding the implementations and the code performance is also included.
 
 Co-written with [George Tsoumplekas](https://github.com/GeorgeTsoumplekas)
 
